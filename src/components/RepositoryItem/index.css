@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.repo-apps {
+  background-color: #f8f8ff;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+  width: 120px;
+  font-family: 'roboto';
+  padding: 14px;
+}
+.avatar-logo {
+  width: 80px;
+  height: 80px;
+}
+.name {
+  font-size: 14px;
+  font-weight: 700;
+  color: #e73959;
+}
+.logo-count-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.logos {
+  width: 24px;
+  margin-right: 5px;
+}
+.count {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1e293b;
+}
+@media screen and (min-width: 768px) {
+  .repo-apps {
+    width: 300px;
+  }
+  .avatar-logo {
+    height: 90px;
+    width: 90px;
+  }
+
+  .name {
+    font-size: 24px;
+  }
+  .logos {
+    height: 32px;
+    width: 32px;
+    margin-right: 10px;
+  }
+  .count {
+    font-size: 18px;
+  }
+}

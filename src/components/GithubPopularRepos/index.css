@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.github-app-popular-container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  padding-top: 26px;
+  min-height: 100vh;
+  background-size: cover;
+  background-color: #ffffff;
+}
+.popular-header {
+  font-size: 2em;
+  font-weight: bolder;
+  font-family: 'Lobster';
+}
+.language-filter-item-and-repository-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.language-filter-item-container {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.repo-list-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 28px;
+  margin: 0;
+  padding: 0;
+}
+.failure-state {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #1e293b;
+}
+.failure-view-img {
+  width: 60%;
+  margin: 30px;
+}
+@media screen and (min-width: 768px) {
+  .popular-header {
+    font-size: 4em;
+  }
+  .failure-state {
+    font-size: 21px;
+  }
+}
